@@ -1,4 +1,4 @@
-age = input("How old are you?: ")
-future_year = input("what year are you in the future?: ")
-future_age = int(future_year) - 2023 + int(age)
+current_age = input("How old are you?: ")
+future_year = 2025
+future_age = int(future_year) - 2023 + int(current_age)
 print("in ", future_year, "You will be", future_age, "years old")
