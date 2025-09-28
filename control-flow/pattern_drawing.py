@@ -1,5 +1,5 @@
-int(input("Enter size of the pattern): "))
-while input >= 0:
-    for i in range(pattern_size):
+Size = int(input("Enter size of the pattern): "))
+while Size > 0:
+    for i in range(Size):
         print("*" * (i + 1))
-    pattern_size -= 1
+    Size -= 1
