@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 
 def display_current_datetime():
-    current_date = date.today()
+    current_date = date.now()
     print("Todays date is: ", current_date.strftime("%Y-%m-%d"))
     return current_date
     
