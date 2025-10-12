@@ -4,12 +4,12 @@ class Shape:
         raise NotImplementedError
     
 class Rectangle(Shape):
-    def __init__ (self, width, height):
+    def __init__ (self, width, length):
         self.width = width
         self.height = height
         
     def area(self):
-        return self.width * self.height
+        return self.width * self.length
 
 class Circle(Shape):
     def __init__ (self, radius):
